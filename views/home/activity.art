@@ -1,0 +1,115 @@
+{{extend './common/Layout.art'}}
+
+{{block 'link'}}
+<link rel="stylesheet" href="/home/css/activity-policy.css">
+{{/block}}
+
+{{block 'main'}}
+  <!-- 头部 -->
+  {{include './common/header.art'}}
+    <!-- 活动 -->
+    <div class="activity-context">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/home/images/p2.jpg" alt="...">
+                        <div class="caption">
+                            <h3 class="text-left">（南溪社区2.19下午）前山街道防疫志愿服务</h3>
+                            <p class="text-left infor">
+                                地点：广东珠海市香洲区南溪村
+                                <br>
+                                归属组织：香洲区义工联“松柏之爱”敬老服务队
+                            </p>
+                            <p class="text-left"><a href="#" class="btn btn-primary" role="button">报名参加</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/home/images/p2.jpg" alt="...">
+                        <div class="caption">
+                            <h3 class="text-left">（南溪社区2.19下午）前山街道防疫志愿服务</h3>
+                            <p class="text-left infor">
+                                地点：广东珠海市香洲区南溪村
+                                <br>
+                                归属组织：香洲区义工联“松柏之爱”敬老服务队
+                            </p>
+                            <p class="text-left"><a href="#" class="btn btn-primary" role="button">报名参加</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/home/images/p2.jpg" alt="...">
+                        <div class="caption">
+                            <h3 class="text-left">（南溪社区2.19下午）前山街道防疫志愿服务</h3>
+                            <p class="text-left infor">
+                                地点：广东珠海市香洲区南溪村
+                                <br>
+                                归属组织：香洲区义工联“松柏之爱”敬老服务队
+                            </p>
+                            <p class="text-left"><a href="#" class="btn btn-primary" role="button">报名参加</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/home/images/p2.jpg" alt="...">
+                        <div class="caption">
+                            <h3 class="text-left">（南溪社区2.19下午）前山街道防疫志愿服务</h3>
+                            <p class="text-left infor">
+                                地点：广东珠海市香洲区南溪村
+                                <br>
+                                归属组织：香洲区义工联“松柏之爱”敬老服务队
+                            </p>
+                            <p class="text-left"><a href="#" class="btn btn-primary" role="button">报名参加</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/home/images/p2.jpg" alt="...">
+                        <div class="caption">
+                            <h3 class="text-left">（南溪社区2.19下午）前山街道防疫志愿服务</h3>
+                            <p class="text-left infor">
+                                地点：广东珠海市香洲区南溪村
+                                <br>
+                                归属组织：香洲区义工联“松柏之爱”敬老服务队
+                            </p>
+                            <p class="text-left"><a href="#" class="btn btn-primary" role="button">报名参加</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="/home/images/p2.jpg" alt="...">
+                        <div class="caption">
+                            <h3 class="text-left">（南溪社区2.19下午）前山街道防疫志愿服务</h3>
+                            <p class="text-left infor">
+                                地点：广东珠海市香洲区南溪村
+                                <br>
+                                归属组织：香洲区义工联“松柏之爱”敬老服务队
+                            </p>
+                            <p class="text-left"><a href="#" class="btn btn-primary" role="button">报名参加</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 尾部 -->
+    <div class="footer">
+        <div class="container">
+            <div class="col-lg-4 footer-mar-top">
+            </div>
+            <div class="col-lg-4 footer-mar-top">
+                联系方式：8888-8888
+            </div>
+            <div class="col-lg-4 footer-mar-top">
+                © 2020 All Rights Reseverd Design by ocean
+            </div>
+        </div>
+    </div>
+{{/block}}

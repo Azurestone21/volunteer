@@ -1,0 +1,132 @@
+{{extend './common/Layout.art'}}
+
+{{block 'link'}}
+<link rel="stylesheet" href="/home/css/online.css">
+{{/block}}
+
+{{block 'main'}}
+    <!-- 头部 -->
+    {{include './common/header.art'}}
+    <!-- 分类 -->
+    <!-- 第一课堂 -->
+    <div class="push">
+        <div class="container">
+            <div class="resources-caption">
+                <h2>>> 第一课堂</h2>
+                <a href="">了解更多</a>
+            </div>
+            <div class="col-lg-6 context-news">
+                <div class="row">
+                    <div class="col-xs-4 col-sm-4">
+                        <a href=""><img src="/home/images/b1.jpg" alt=""/></a>
+                    </div>
+                    <div class="col-xs-4 col-sm-4">
+                        <a href=""><img src="/home/images/b2.jpg" alt=""/></a>
+                    </div>
+                    <div class="col-xs-4 col-sm-4">
+                        <a href=""><img src="/home/images/b3.jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 context-policy">
+                <div>
+                    <ul>
+                        <li><a href="">陆士桢：发展中国特色志愿服务，促进社会文明进步</a></li>
+                        <li><a href="">肖金明：《志愿服务条例》的立法创新与多重效应</a></li>
+                        <li><a href="">党秀云：为志愿服务保驾护航</a></li>
+                        <li><a href="">李芳：准确把握《志愿服务条例》的立法重点</a></li>
+                        <li><a href="">谭建光：强化志愿服务激励 促进诚信社会建设</a></li>
+                        <li><a href="">赵津芳：以法制化手段规范和促进志愿服务组织发展</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 心理健康 -->
+    <div class="push">
+        <div class="container">
+            <div class="resources-caption">
+                <h2>>> 心理健康</h2>
+                <a href="">了解更多</a>
+            </div>
+            <div class="col-lg-6 context-news">
+                <div class="row">
+                    <div class="col-xs-4 col-sm-4">
+                        <a href=""><img src="/home/images/b1.jpg" alt=""/></a>
+                    </div>
+                    <div class="col-xs-4 col-sm-4">
+                        <a href=""><img src="/home/images/b2.jpg" alt=""/></a>
+                    </div>
+                    <div class="col-xs-4 col-sm-4">
+                        <a href=""><img src="/home/images/b3.jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 context-policy">
+                <div>
+                    <ul>
+                        <li><a href="">陆士桢：发展中国特色志愿服务，促进社会文明进步</a></li>
+                        <li><a href="">肖金明：《志愿服务条例》的立法创新与多重效应</a></li>
+                        <li><a href="">党秀云：为志愿服务保驾护航</a></li>
+                        <li><a href="">李芳：准确把握《志愿服务条例》的立法重点</a></li>
+                        <li><a href="">谭建光：强化志愿服务激励 促进诚信社会建设</a></li>
+                        <li><a href="">赵津芳：以法制化手段规范和促进志愿服务组织发展</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 海洋知识 -->
+    <div class="push">
+        <div class="container">
+            <div class="resources-caption">
+                <h2>>> 海洋知识</h2>
+                <a href="">了解更多</a>
+            </div>
+            <div class="col-lg-6 context-news">
+                <div class="row">
+                    <div class="col-xs-4 col-sm-4">
+                        <a href=""><img src="/home/images/b1.jpg" alt=""/></a>
+                    </div>
+                    <div class="col-xs-4 col-sm-4">
+                        <a href=""><img src="/home/images/b2.jpg" alt=""/></a>
+                    </div>
+                    <div class="col-xs-4 col-sm-4">
+                        <a href=""><img src="/home/images/b3.jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 context-policy">
+                <div>
+                    <ul>
+                        <li><a href="">陆士桢：发展中国特色志愿服务，促进社会文明进步</a></li>
+                        <li><a href="">肖金明：《志愿服务条例》的立法创新与多重效应</a></li>
+                        <li><a href="">党秀云：为志愿服务保驾护航</a></li>
+                        <li><a href="">李芳：准确把握《志愿服务条例》的立法重点</a></li>
+                        <li><a href="">谭建光：强化志愿服务激励 促进诚信社会建设</a></li>
+                        <li><a href="">赵津芳：以法制化手段规范和促进志愿服务组织发展</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 尾部 -->
+    <div class="footer">
+        <div class="container">
+            <div class="col-lg-4 footer-mar-top">
+            </div>
+            <div class="col-lg-4 footer-mar-top">
+                联系方式：8888-8888
+            </div>
+            <div class="col-lg-4 footer-mar-top">
+                © 2020 All Rights Reseverd Design by ocean
+            </div>
+        </div>
+    </div>
+{{/block}}

@@ -1,0 +1,166 @@
+{{extend './common/Layout.art'}}
+
+{{block 'main'}}
+<!-- 头部 -->
+{{include './common/header.art'}}
+
+<!-- 巨幕 -->
+<div class="container">
+  <div class="jumbotron">
+    <img src="/home/images/sl3.jpg"/>
+  </div>
+</div>
+
+<!-- 风采展示 -->
+<div class="context">
+  <div class="container">
+    <div class="caption">
+      <h2>风采展示</h2>
+    </div>
+    <div class="col-lg-4 col-sm-4 show">
+      <img src="/home/images/w1.jpg"/>
+      <div class="img-caption">
+        <h3><a href="">第一</a></h3>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-4 show">
+      <img src="/home/images/w2.jpg"/>
+      <div class="img-caption">
+        <h3><a href="">第一</a></h3>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-4 show">
+      <img src="/home/images/w3.jpg"/>
+      <div class="img-caption">
+        <h3><a href="">第一</a></h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 消息推送 -->
+<div class="push">
+  <div class="container">
+    <div class="caption">
+      <h2>消息 · 政策</h2>
+    </div>
+    <div class="col-lg-6 col-md-6 context-news">
+      <div class="push-title">
+        <h3>消息推送</h3>
+      </div>
+      <div>
+        <ul>
+          <li><a href="">民政部关于动员慈善力量依法有序参与新型冠状病毒感染的肺炎疫情防控</a></li>
+          <li><a href="">关于学习贯彻习近平总书记有关志愿服务 重要指示精神的通知</a></li>
+          <li><a href="">关于国家标准《志愿服务组织基本规范》+（征求意见稿）公开征求意见的通知</a></li>
+          <li><a href="">2018年脱贫攻坚志愿服务宣传展示活动主题海报下载</a></li>
+          <li><a href="">关于警惕以志愿服务名义进行营利性活动的通告</a></li>
+          <li><a href="">中央文明办、民政部关于学习宣传和贯彻落实《志愿服务条例》的通知</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 context-policy">
+      <div class="push-title">
+        <h3>实时新闻</h3>
+      </div>
+      <div>
+        <ul>
+          <li><a href="">陆士桢：发展中国特色志愿服务，促进社会文明进步</a></li>
+          <li><a href="">肖金明：《志愿服务条例》的立法创新与多重效应</a></li>
+          <li><a href="">党秀云：为志愿服务保驾护航</a></li>
+          <li><a href="">李芳：准确把握《志愿服务条例》的立法重点</a></li>
+          <li><a href="">谭建光：强化志愿服务激励 促进诚信社会建设</a></li>
+          <li><a href="">赵津芳：以法制化手段规范和促进志愿服务组织发展</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="map">
+  <div class="container">
+    <div class="caption">
+      <h2>全国各地区志愿服务数据</h2>
+    </div>
+    <div class="col-lg-8 chart"></div>
+    <div class="col-lg-4 count">
+      <table class="table table-bordered" style="text-align: center">
+        <tr>
+          <td>志愿者总数</td>
+          <td>1.65亿</td>
+        </tr>
+        <tr>
+          <td>志愿者团体总数</td>
+          <td>71.03万</td>
+        </tr>
+        <tr>
+          <td>志愿项目总数</td>
+          <td>365.57万</td>
+        </tr>
+        <tr>
+          <td>服务时间总数</td>
+          <td>20.53亿</td>
+        </tr>
+        <tr>
+          <td>记录时间人数</td>
+          <td>3163.75万</td>
+        </tr>
+      </table>
+      <!--<ul>
+        <li>
+          <span>志愿者总数</span>
+          <span>1.65亿</span>
+        </li>
+        <li>
+          <span>志愿者团体总数</span>
+          <span>71.03万</span>
+        </li>
+        <li>
+          <span>志愿项目总数</span>
+          <span>365.57万</span>
+        </li>
+        <li>
+          <span>服务时间总数</span>
+          <span>20.53亿</span>
+        </li>
+        <li>
+          <span>记录时间人数</span>
+          <span>3163.75万
+</span>
+        </li>
+      </ul>-->
+    </div>
+  </div>
+</div>
+
+<!-- 尾部 -->
+<div class="footer">
+  <div class="container">
+    <div class="col-lg-4 footer-mar-top">
+    </div>
+    <div class="col-lg-4 footer-mar-top">
+      联系方式：8888-8888
+    </div>
+    <div class="col-lg-4 footer-mar-top">
+      © 2020 All Rights Reseverd Design by ocean
+    </div>
+  </div>
+</div>
+{{/block}}
+
+{{block 'script'}}
+<script src="/home/js/echarts.min.js"></script>
+<script src="/home/js/china.js"></script>
+<script src="/home/js/map.js"></script>
+<script>
+  map();
+
+  function map() {
+    console.log(mapData[0].count)
+  }
+</script>
+{{/block}}
+
+

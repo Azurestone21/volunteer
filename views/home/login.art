@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="/home/css/bootstrap/css/bootstrap.css">
+    <script src="/home/js/jquery-1.12.4/jquery-1.12.4.js"></script>
+    <script src="/home/css/bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="/home/css/login.css">
+</head>
+<body>
+    <div class="login">
+        <form>
+            <div class="title">
+                <h3>登录</h3>
+            </div>
+            <div class="form-group">
+                <label for="login-id">用户号</label>
+                <input type="text" class="form-control" id="login-id" placeholder="请输入你的用户名">
+            </div>
+            <div class="form-group">
+                <label for="login-password">密码</label>
+                <input type="password" class="form-control" id="login-password" placeholder="请输入你的密码">
+            </div>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox">记录密码
+                </label>
+            </div>
+
+            <div class="login-button">
+                <button type="submit" class="btn btn-default btn-color">登录</button>
+            </div>
+            <div class="login-a">
+                <a href="register.html">还没有账号？去注册</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

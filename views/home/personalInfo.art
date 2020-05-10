@@ -1,0 +1,106 @@
+{{extend './common/Layout.art'}}
+
+{{block 'link'}}
+<link rel="stylesheet" href="/home/css/personal.css">
+{{/block}}
+
+{{block 'main'}}
+    <!-- 头部 -->
+    {{include './common/header.art'}}
+
+    <!-- 内容 -->
+    <div class="context">
+        <div class="container">
+            <div class="row">
+                <div class="context-left col-lg-2">
+                    <div class="userAccount">
+                        <img src="/home/images/b3.jpg" alt="">
+                        <span>dahjjkasfj</span>
+                    </div>
+                    <div class="userInfo">
+                        <ul>
+                            <li><h4>基础功能</h4><span></span></li>
+                            <li><a href="news.html"><i class="glyphicon glyphicon-comment" aria-hidden="true" style="margin-right: 5px; color: #ff602e;"></i>我的消息 ></a></li>
+                            <li><a href="personalInfo.html"><i class="glyphicon glyphicon-pencil" aria-hidden="true" style="margin-right: 5px; color: #378ad2;"></i>我的资料 ></a></li>
+                            <li><a href=""><i class="glyphicon glyphicon-map-marker" aria-hidden="true" style="margin-right: 5px; color: #4cb82a"></i>我的活动 ></a></li>
+                            <li><a href="changePassword.html"><i class="glyphicon glyphicon-lock" aria-hidden="true" style="margin-right: 5px; color:#69334b;"></i>修改密码 ></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="context-right col-lg-10">
+                    <form class="form-inline">
+                        <!--用户名-->
+                        <div class="form-group">
+                            <label for="Name"><span>* </span>用户名： </label>
+                            <input type="text" class="form-control" id="Name" placeholder="">
+                        </div>
+                        <br>
+                        <br>
+                        <!--真实姓名-->
+                        <div class="form-group">
+                            <label for="Name2">真实姓名：</label>
+                            <input type="text" class="form-control" id="Name2" placeholder="">
+                        </div>
+                        <br>
+                        <br>
+                        <!--性别-->
+                        <div class="form-group">
+                            <label for="">性别：</label>
+                            <label class="radio-inline sex">
+                                <input type="radio" name="sex" id="man" value="man"> 男
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="sex" id="women" value="women"> 女
+                            </label>
+                        </div>
+                        <br>
+                        <br>
+                        <!--邮箱-->
+                        <div class="form-group">
+                            <label for="email"><span>* </span>邮箱：</label>
+                            <input type="email" class="form-control" id="email" placeholder="">
+                        </div>
+                        <br>
+                        <br>
+                        <!--手机号-->
+                        <div class="form-group">
+                            <label for="phone"><span>* </span>手机：</label>
+                            <input type="text" class="form-control" id="phone" placeholder="">
+                        </div>
+                        <br>
+                        <br>
+                        <!--籍贯-->
+                        <div class="form-group">
+                            <label for="nativePlace">籍贯：</label>
+                            <input type="text" class="form-control" id="nativePlace" placeholder="">
+                        </div>
+                        <br>
+                        <br>
+                        <!--民族-->
+                        <div class="form-group">
+                            <label for="nation">民族：</label>
+                            <input type="text" class="form-control" id="nation" placeholder="">
+                        </div>
+                        <br>
+                        <br>
+                        <!--政治面貌-->
+                        <div class="form-group">
+                            <label for="political">政治面貌：</label>
+                            <input type="text" class="form-control" id="political" placeholder="">
+                        </div>
+                        <br>
+                        <br>
+                        <!--最高学历-->
+                        <div class="form-group">
+                            <label for="education">最高学历：</label>
+                            <input type="text" class="form-control" id="education" placeholder="">
+                        </div>
+                        <br>
+                        <br>
+                        <input class="btn btn btn-primary" type="submit" value="保存">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/block}}

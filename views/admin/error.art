@@ -1,0 +1,19 @@
+{{extend './common/Layout.art'}}}
+
+{{block 'main'}}
+
+<div style="margin-top: 200px; ">
+  <div class="container">
+    <div class="alert alert-danger" role="alert">{{msg}}</div>
+  </div>
+</div>
+
+{{/block}}
+
+{{block 'script'}}
+  <script>
+    setTimeout(function () {
+      location.href = '/admin/login';
+    }, 3000);
+  </script>
+{{/block}}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>志愿服务网</title>
+  <link rel="stylesheet" href="/home/css/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="/home/css/index.css">
+  {{block 'link'}}{{/block}}
+</head>
+<body>
+  {{block 'main'}}{{/block}}
+
+  <script src="/admin/lib/jquery/jquery.min.js"></script>
+  <script src="/admin/lib/bootstrap/js/bootstrap.min.js"></script>
+  {{block 'script'}}{{/block}}
+</body>
+</html>

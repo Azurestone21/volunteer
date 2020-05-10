@@ -1,0 +1,51 @@
+{{extend './common/Layout.art'}}
+
+{{block 'link'}}
+<link rel="stylesheet" href="/home/css/activity-policy.css">
+{{/block}}
+
+{{block 'main'}}
+    <!-- 头部 -->
+    {{include './common/header.art'}}
+    <!-- 主体 -->
+    <div class="policy-context">
+        <div class="container">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="">陆士桢：发展中国特色志愿服务，促进社会文明进步</a>
+                    <span>2020-1-10</span>
+                </li>
+                <li class="list-group-item">
+                    <a href="">肖金明：《志愿服务条例》的立法创新与多重效应</a>
+                    <span>2020-1-10</span>
+                </li>
+                <li class="list-group-item">
+                    <a href="">党秀云：为志愿服务保驾护航</a>
+                    <span>2020-1-10</span>
+                </li>
+                <li class="list-group-item">
+                    <a href="">李芳：准确把握《志愿服务条例》的立法重点</a>
+                    <span>2020-1-10</span>
+                </li>
+                <li class="list-group-item">
+                    <a href="">谭建光：强化志愿服务激励 促进诚信社会建设</a>
+                    <span>2020-1-10</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 尾部 -->
+    <div class="footer">
+        <div class="container">
+            <div class="col-lg-4 footer-mar-top">
+            </div>
+            <div class="col-lg-4 footer-mar-top">
+                联系方式：8888-8888
+            </div>
+            <div class="col-lg-4 footer-mar-top">
+                © 2020 All Rights Reseverd Design by ocean
+            </div>
+        </div>
+    </div>
+{{/block}}

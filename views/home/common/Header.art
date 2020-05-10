@@ -1,0 +1,60 @@
+<div id="header">
+    <!-- 上部分 -->
+    <div class="top-bar hidden-sm hidden-xs text-muted text-center">
+        <div class="container">
+            <div class="row">
+                <div class="tab-bar-item1 col-md-2">
+                    <a href=""  class="text-muted">
+                        <i class="icon-phone"></i>
+                        <span>关注公众号</span>
+                        <span class="caret"></span>
+                        <img src="" alt="" width="130">
+                    </a>
+                </div>
+                <div class="tab-bar-item2 col-md-5">
+                    <!--<i class="icon-tel"></i>
+                    <span>8888-555-6666(服务时间：9:00-21:00)</span>-->
+                </div>
+                <div class="tab-bar-item3 col-md-2">
+                    <!--<a href="" class="text-muted">校企合作</a>
+                    <a href="" class="text-muted">培训师</a>-->
+                </div>
+                <div class="tab-bar-item4 col-md-3">
+                    <a class="btn btn-default btn-sm btn-register" href="/home/register" role="button">立即注册</a>
+                    <a class="text-muted" href="/home/logout" role="button" style="margin-left:10px; line-height: 35px; color: #FFFFFF;">立即登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 下部分 导航-->
+    <nav class="navbar navbar-default navbar-static-top navbar_lk">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed open" data-toggle="collapse" data-target="#nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <h1>志愿服务网</h1>
+                    <!--<img src="img/lk_logo_sm.png" alt="撩课" width="180">-->
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="nav navbar-nav">
+                    <li class="{{currentLink == 'index' ? 'active' : ''}}"><a href="/home/">&nbsp;&nbsp;&nbsp;首页&nbsp;&nbsp;&nbsp;</a></li>
+                    <li class="{{currentLink == 'activity' ? 'active' : ''}}"><a href="/home/activity">活动项目</a></li>
+                    <li class="{{currentLink == 'demeanor' ? 'active' : ''}}"><a href="/home/demeanor">活动风采</a></li>
+                    <li class="{{currentLink == 'onlineResources' ? 'active' : ''}}"><a href="/home/onlineResources">在线教学资源</a></li>
+                    <li class="{{currentLink == 'policy' ? 'active' : ''}}"><a href="/home/policy">政策文件</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
+                  <li class="{{currentLink == 'personalInfo' ? 'active' : ''}}"><a href="/home/personalInfo">个人中心</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+

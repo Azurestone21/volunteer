@@ -1,0 +1,29 @@
+.push .container .resources-caption {
+    width: 100%;
+    height: 35px;
+    background-color: #cccccc;
+    padding-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+
+.push .container .resources-caption h2 {
+    font-size: 18px;
+    display: inline-block;
+}
+
+.push .container .resources-caption a {
+    color: #494949;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.context-policy {
+    padding-left: 30px;
+}
+
+.context-policy li {
+    line-height: 30px;
+}
+

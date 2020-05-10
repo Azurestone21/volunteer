@@ -1,0 +1,195 @@
+/* 活动项目 */
+.activity-context {
+    margin-top: 60px;
+}
+
+.activity-context .thumbnail {
+    height: 360px;
+}
+
+.activity-context .infor {
+    font-size: 14px;
+    color: rgba(73, 73, 73, 0.59);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* 评论开始 */
+.article-comment {
+
+}
+
+.article-comment h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.article-comment .comment {
+    width: 100%;
+    height: 60px;
+    display: block;
+}
+
+.comment-form {
+    margin-top: 15px;
+}
+
+.comment-form .items {
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.comment-form .items span,
+.comment-form .items input[type="text"] {
+    height: 22px;
+    line-height: 22px;
+}
+
+.comment-form .items span {
+    float: left;
+    width: 40px;
+
+}
+
+.comment-form .items input[type="text"] {
+    float: left;
+    width: 300px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+.comment-form .items input[type="submit"] {
+    width: 100px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.comment-list {
+    margin-top: 30px;
+}
+
+.comment-content {
+    line-height: 22px;
+    margin-top: 5px;
+}
+/* 评论结束 */
+
+/* 活动风采 */
+.demeanor-context {
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.demeanor-context img {
+    width: 100%;
+    height: 225px;
+}
+
+.demeanor-context h3 {
+    width: 100%;
+    height: 24px;
+    font-weight: bolder;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.demeanor-context h3 a {
+    color: black;
+}
+.demeanor-context h3 a:hover {
+    color: #2853a9;
+    text-decoration: none;
+}
+
+.demeanor-context .author p {
+    padding: 3px 3px;
+    font-size: 12px;
+    float: left;
+}
+
+.demeanor-context .thumbnail {
+    height: 360px;
+}
+
+.demeanor-context .info {
+    font-size: 14px;
+    height: 57px;
+    color: rgba(73, 73, 73, 0.59);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 分页开始 */
+.page {
+    padding: 30px 0;
+    font-size: 0;
+    text-align: center;
+}
+
+.page a {
+    color: black;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 8px;
+}
+
+.page .active {
+    color: #ff7300;
+}
+/*.demeanor-context {
+    width: 1180px;
+    margin: 60px auto;
+    !*margin-top: 60px;*!
+    min-width: 1180px;
+    min-height: 350px;
+    overflow: hidden;
+}
+
+.demeanor-context .thumbnail {
+    height: 167px;
+}
+
+.demeanor-context .thumbnail .caption {
+    !*background-color: yellow;*!
+    width: 850px;
+    overflow: hidden;
+}
+
+.demeanor-context .thumbnail .text-mar-left {
+    !*margin-left: 270px;*!
+}
+
+.demeanor-context .thumbnail .text-mar-left h3 {
+    font-size: 26px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.demeanor-context .thumbnail .text-mar-left p {
+    font-size: 14px;
+    color: #8c8c8c;
+}*/
+
+/* 政策文件 */
+.policy-context {
+    margin-top: 60px;
+    min-height: 350px;
+}
+
+.policy-context .list-group-item {
+    border-left: none;
+    border-right: none;
+}
+
+.policy-context ul li a {
+    color: #000000;
+}
+
+.policy-context ul li span {
+    float: right;
+}
+
+
+
